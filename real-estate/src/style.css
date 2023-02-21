@@ -1,0 +1,52 @@
+.container {
+    width: 85%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.header-nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav-links a:hover {
+    color: brown;
+}
+
+.ml-15 {
+    margin-left: 15px;
+}
+/* create */
+
+.create-container{
+ max-width: 30%;
+ margin: 0 auto;
+ margin-top: 3rem;
+ 
+}
+
+.create-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.create-label {
+    margin: 1rem 0;
+}
+.create-btn {
+    margin-top: 1rem;
+    width: 5rem;
+    background-color: rgb(36, 121, 36);
+    color: white;
+}
+.create-btn:hover {
+    cursor: pointer;
+}
